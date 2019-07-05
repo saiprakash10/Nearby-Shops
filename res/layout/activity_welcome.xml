@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+   
+    tools:context=".Welcome" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        
+        <ImageView 
+        android:id="@+id/nearby"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/near"/>
+        
+        <ImageView 
+        android:id="@+id/finger"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/finger"
+        />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="welcome to Shopping world!!!
+                                click above image"
+                                android:layout_gravity="center_horizontal"
+                                android:typeface="serif"
+                                android:textColor="#000000"
+                                android:layout_marginTop="20dp"
+                                android:textSize="30dp"/>
+        
+      
+  
+    </LinearLayout>
+ 
+
+</ScrollView>

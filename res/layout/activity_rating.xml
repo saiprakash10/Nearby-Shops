@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@drawable/block"
+    tools:context=".Rating" >
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+       />
+    
+    <TextView 
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        android:typeface="serif"
+        />
+     <TextView 
+        android:id="@+id/txts"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="Thanks for   your vist"
+        android:textSize="50dp"
+        android:textColor="#FFFF"
+        android:typeface="serif"
+        />
+
+</LinearLayout>
